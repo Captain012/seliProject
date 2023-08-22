@@ -1,0 +1,35 @@
+Login:
+  user_name: ['id','username']
+  pass_word: ['id','password']
+  button_login: ['id', 'btnLogin']
+MainPage:
+  head_selector: ['css selector','.el-icon-caret-bottom']
+  quit_to_login_button: ['xpath',"//span[contains(text(),'退出')]"]
+  project_manage: ['xpath',"//span[text()='商品管理']"]
+  project_list: ['xpath',"//span[text()='商品列表']"]
+  project_add: ['xpath',"//span[text()='添加商品']"]
+  brand_manage: ['xpath',"//span[text()='品牌管理']"]
+ProjectListPage:
+  first_project_name: ['css selector',"tbody>tr:first-child>td:nth-child(4) p:first-child"]
+  home_btn: ['xpath','//a[text()="首页"]']
+ProjectAddPage:
+  project_class_select: ['css selector','form > div:nth-child(1) .el-cascader__label']
+  project_class_select_idx1: ['css selector','div + ul.el-cascader-menu >li:nth-child({})']
+  project_class_select_idx2: ['css selector','ul+ul >li:nth-child({})']
+  product_name: ['css selector','label[for="name"] + div input']
+  product_subtitle: ['css selector','label[for="subTitle"] + div input']
+  brand_select: ['css selector','input[placeholder="请选择品牌"]']
+  brand_select_idx: ['css selector','body >:last-child  li:nth-child({})']
+  next_to_promotion_btn: ['xpath','//span[text()="下一步，填写商品促销"]']
+  next_product_attribute_btn: [ 'xpath','//*[text()="下一步，填写商品属性"]' ]
+  next_product_related_btn: [ 'xpath','//*[text()="下一步，选择商品关联"]' ]
+  complete_btn: [ 'xpath','//*[text()="完成，提交商品"]' ]
+  submit_btn: ['css selector','div.el-message-box__btns > button.el-button--primary']
+  home_btn: ['xpath','//a[text()="首页"]']
+BrandManagePage:
+  search_box: ['css selector','input[placeholder="品牌名称/关键字"]']
+  search_btn: ['css selector',".el-icon-search ~button"]
+  home_btn: ['xpath','//a[text()="首页"]']
+  name_list: ['css selector','tbody > tr >td:nth-child(3)>div']
+
+

@@ -1,0 +1,5 @@
+- ['管理员账号登录','松勤老师','123456',['css selector','.no-redirect'],'首页']
+- ['普通账号登录','朝天宫149','123456',['css selector','.no-redirect'],'首页']
+- ['登录账号错误','朝天宫14','123456',['css selector','.el-message__content'],'用户名或密码错误']
+- ['登录密码错误','朝天宫149','1234',['css selector','.el-message__content'],'密码不正确！']
+- ['密码太短','朝天宫149','12',['css selector','.el-form-item__error'],'密码不能小于3位']
